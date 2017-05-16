@@ -16,20 +16,7 @@
         android:textSize="25dp"
         android:textColor="@color/colorPrimary"
         />
-    <TextView
-        android:layout_width="400dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="50dp"
-        android:text="Contact Number:9618446359 "
-        android:textSize="25dp"
-        android:textColor="@color/colorPrimary"
-        />
-    <TextView
-        android:layout_width="400dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="100dp"
-        android:text="email:rajeswari@saksham-india.com"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimaryDark"/>
+
+
 
 </RelativeLayout>

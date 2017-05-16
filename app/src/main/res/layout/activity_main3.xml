@@ -13,8 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="We are the developers can help you,if any queries send me a mail about your problem.
-email:rajeswari@saksham-india.com.
-contact:9618446359.
+mail yourself.
 We are from saksham statergies in panjagutta,Hyderabad."
         android:textSize="20dp"
         android:textColor="@color/colorPrimary"
