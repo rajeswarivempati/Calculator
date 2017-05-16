@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dhanya.myapplication.MainActivity">
+
+
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:height="45dp"
+        android:background="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_marginLeft="20dp"
+            android:text="1"
+            style="@style/ButtonStyle" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="2"
+            style="@style/ButtonStyle"/>
+
+        <Button
+            android:id="@+id/three"
+            android:layout_marginRight="20dp"
+            android:text="3"
+            style="@style/ButtonStyle"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/four"
+        android:text="4"
+        android:layout_marginLeft="20dp"
+ />
+
+    <Button
+        android:id="@+id/five"
+        style="@style/ButtonStyle"
+        android:text="5"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/six"
+
+        android:text="6"
+        style="@style/ButtonStyle"
+
+        android:layout_marginRight="20dp"/>
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/seven"
+        style="@style/ButtonStyle"
+        android:text="7"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+         />
+
+    <Button
+        android:id="@+id/eight"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="8"
+         />
+
+    <Button
+        android:id="@+id/nine"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="9"
+         />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/plus"
+        style="@style/ButtonStyle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="+"
+         />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_marginRight="20dp"
+        android:text="-"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/zero"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="0"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_marginRight="20dp"
+android:layout_marginLeft="20dp"
+        android:text="*"
+        style="@style/ButtonStyle"/>
+
+    <Button
+        android:id="@+id/div"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="/"
+         />
+
+    <Button
+        android:id="@+id/per"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="%"
+        />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/equal"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="="
+         />
+
+    <Button
+        android:id="@+id/sqr"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="^"
+         />
+
+    <Button
+        android:id="@+id/root"
+        style="@style/ButtonStyle"
+        android:layout_marginRight="20dp"
+        android:text="\u221a"
+         />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/clr"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/clear"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+    <Button
+        style="@style/Button"
+        android:background="@drawable/ic_backspace_black_18px"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/back"/>
+    </LinearLayout>
+</LinearLayout>
